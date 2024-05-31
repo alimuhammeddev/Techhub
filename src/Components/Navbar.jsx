@@ -21,7 +21,7 @@ const Navbar = () => {
       };
   return (
     <div className='shadow-md w-full fixed top-0 left-0 z-50'>
-      <div className='md:flex items-center justify-between bg-white lg:py-7 py-5 lg:px-48 px-7'>
+      <div className='lg:flex items-center justify-between bg-white lg:py-7 py-5 lg:px-48 px-7'>
             <div className='cursor-pointer lg:-ml-10'>
               <img src={logo} alt="" />
             </div>
@@ -30,7 +30,7 @@ const Navbar = () => {
             <ion-icon name={open ? 'close':'menu'}></ion-icon>
             </div>
 
-            <ul className={`lg:flex lg:items-center lg:pb-0 pb-12 absolute lg:static lg:z-auto z-[-1] bg-[#ffffff] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 ':'top-[-490px]'} lg:shadow-none md:shadow-none shadow-md`}>
+            <ul className={`lg:flex lg:items-center lg:pb-0 pb-12 absolute lg:static lg:z-auto z-[-1] bg-[#ffffff] left-0 w-full lg:w-auto lg:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 ':'top-[-490px]'} lg:shadow-none md:shadow-md shadow-md`}>
               {
                 Links.map((link, index)=>(
                   <li key={index} className='md:ml-8 text-xl md:my-0 my-7 md:mr-14 lg:mr-5 cursor-pointer'>

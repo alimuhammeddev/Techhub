@@ -26,7 +26,7 @@ const Navbar = () => {
               <img src={logo} alt="" />
             </div>
             
-            <div onClick={()=>setOpen(!open)} className='text-3xl absolute right-8 top-6 cursor-pointer md:hidden text-black'>
+            <div onClick={()=>setOpen(!open)} className='text-3xl absolute right-8 top-6 cursor-pointer lg:hidden text-black'>
             <ion-icon name={open ? 'close':'menu'}></ion-icon>
             </div>
 

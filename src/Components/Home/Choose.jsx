@@ -24,7 +24,7 @@ const Choose = () => {
                 </div>
             </div>
 
-            <div className='flex lg:flex-row flex-col items-center justify-between mt-10'>
+            <div className='flex lg:flex-row md:flex-row flex-col items-center justify-between mt-10'>
                 <div className='order-2 md:order-1'>
                     <h1 className='text-[#1E1100] lg:text-[28px] text-[17px] font-semibold md:mt-0 mt-10' style={{fontFamily: 'public sans'}}>Industry Partnerships and Internships</h1>
                     <p className='text-[#1E1100] lg:text-[24px] text-[13px] mt-5' style={{fontFamily:'public sans'}}>We have established strong relationships with <br className='sm:block hidden'/> industry partners, which provide students with <br className='sm:block hidden'/> valuable networking opportunities and access to <br className='sm:block hidden'/> internship placements upon graduation</p>
@@ -32,7 +32,7 @@ const Choose = () => {
                 <img src={handshake} alt="" className='order-1 md:order-2' />
             </div>
 
-            <div className='flex lg:flex-row flex-col items-center justify-between mt-10'>
+            <div className='flex lg:flex-row md:flex-row flex-col items-center justify-between mt-10'>
                 <img src={hand} alt="" />
                 <div>
                     <h1 className='text-[#1E1100] lg:text-[28px] text-[17px] font-semibold md:mt-0 mt-10' style={{fontFamily: 'public sans'}}>Hands-On Learning</h1>
@@ -40,7 +40,7 @@ const Choose = () => {
                 </div>
             </div>
 
-            <div className='flex lg:flex-row flex-col items-center justify-between mt-10'>
+            <div className='flex lg:flex-row md:flex-row flex-col items-center justify-between mt-10'>
                 <div className='order-2 md:order-1'>
                     <h1 className='text-[#1E1100] lg:text-[28px] text-[17px] font-semibold md:mt-0 mt-10' style={{fontFamily: 'public sans'}}>Career Support Services</h1>
                     <p className='text-[#1E1100] lg:text-[24px] text-[13px] mt-5' style={{fontFamily:'public sans'}}>We offer comprehensive career support services, <br className='sm:block hidden'/> including resume building, interview preparation, <br className='sm:block hidden'/> job placement assistance, and networking events. </p>

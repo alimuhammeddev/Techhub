@@ -5,7 +5,7 @@ import { hero, play } from '../../assets'
 
 const Hero = () => {
   return (
-    <section className='grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 lg:mt-28 md:mt-20'>
+    <section className='grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 lg:mt-28 md:mt-24'>
         <div className={`mt-28`}>
             <h1 style={{fontFamily: 'public sans'}} className='text-[25px] lg:text-[48px] font-bold'>
             Unleash Your <span style={{color: '#EEA10D'}}>Tech Skills</span> <br className='sm:block hidden'/> and Shape the Future <br className='sm:block hidden'/> with <span style={{fontFamily: 'forte', color: '#EEA10D'}}>Tech Hub</span>

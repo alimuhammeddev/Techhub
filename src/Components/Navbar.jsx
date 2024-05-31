@@ -22,7 +22,7 @@ const Navbar = () => {
   return (
     <div className='shadow-md w-full fixed top-0 left-0 z-50'>
       <div className='lg:flex items-center justify-between bg-white lg:py-7 py-5 lg:px-48 px-7'>
-            <div className='cursor-pointer lg:-ml-10'>
+            <div className='cursor-pointer lg:-ml-10 md:ml-9'>
               <img src={logo} alt="" />
             </div>
             
@@ -38,7 +38,7 @@ const Navbar = () => {
                   </li>
                 ))
               }
-              <div className=" flex items-center gap-5 lg:hidden md:mr-10">
+              <div className=" flex items-center gap-5 lg:hidden md:ml-8">
                 <a href="#" className="border border-[#EEA10D] text-[#6D737A] flex items-center gap-2 p-2 px-7 rounded-md"><img src={lock} alt="" /> Login</a>
                 <a href="#" className="bg-[#EEA10D] text-[#fffffff] flex items-center gap-2 p-2 px-7 rounded-md">Apply Now</a>
               </div>

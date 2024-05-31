@@ -38,12 +38,12 @@ const Navbar = () => {
                   </li>
                 ))
               }
-              <div className=" flex items-center gap-5 -mr-10 lg:hidden">
+              <div className=" flex items-center gap-5 lg:hidden">
                 <a href="#" className="border border-[#EEA10D] text-[#6D737A] flex items-center gap-2 p-2 px-7 rounded-md"><img src={lock} alt="" /> Login</a>
                 <a href="#" className="bg-[#EEA10D] text-[#fffffff] flex items-center gap-2 p-2 px-7 rounded-md">Apply Now</a>
               </div>
             </ul>
-            <div className=" lg:flex items-center gap-5 -mr-10 hidden">
+            <div className=" lg:flex items-center gap-5 lg:-mr-10 hidden">
               <a href="#" className="border border-[#EEA10D] text-[#6D737A] text-[16px] flex items-center gap-2 p-2 px-7 rounded-md"><img src={lock} alt="" /> Login</a>
               <a href="#" className="bg-[#EEA10D] text-[#fffffff] text-[16px] flex items-center gap-2 p-2 px-7 rounded-md">Apply Now</a>
             </div>

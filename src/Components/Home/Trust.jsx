@@ -7,7 +7,7 @@ const Trust = () => {
         <div>
             <h1 className='text-[#111111] text-center mt-10 lg:text-[28px] font-bold'>Trusted by 5,000+ Companies Worldwide</h1>
         </div>
-        <div className='flex items-center lg:gap-16 gap-5 lg:flex-row md:flex-row flex-col mt-5'>
+        <div className='flex items-center lg:gap-16 md:gap-14 gap-5 lg:flex-row md:flex-row flex-col mt-5'>
             <img src={google} className='lg:w-fit w-20' alt="" />
             <img src={netflix} className='lg:w-fit w-20' alt="" />
             <img src={airbnb} className='lg:w-fit w-20' alt="" />

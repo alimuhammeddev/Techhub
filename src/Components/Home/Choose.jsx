@@ -16,7 +16,7 @@ const Choose = () => {
         </div>
 
         <div className='mt-10'>
-            <div className='flex lg:flex-row flex-col items-center justify-between'>
+            <div className='flex lg:flex-row md:flex-row flex-col items-center justify-between'>
                 <img src={book} alt="" />
                 <div>
                     <h1 className='text-[#1E1100] lg:text-[28px] text-[17px] md:mt-0 mt-10 font-semibold' style={{fontFamily: 'public sans'}}>Flexibility and Adaptability</h1>

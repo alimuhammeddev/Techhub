@@ -30,7 +30,7 @@ const Navbar = () => {
             <ion-icon name={open ? 'close':'menu'}></ion-icon>
             </div>
 
-            <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static md:z-auto z-[-1] bg-[#ffffff] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 ':'top-[-490px]'} lg:shadow-none md:shadow-none shadow-md`}>
+            <ul className={`lg:flex lg:items-center lg:pb-0 pb-12 absolute lg:static lg:z-auto z-[-1] bg-[#ffffff] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 ':'top-[-490px]'} lg:shadow-none md:shadow-none shadow-md`}>
               {
                 Links.map((link, index)=>(
                   <li key={index} className='md:ml-8 text-xl md:my-0 my-7 md:mr-14 lg:mr-5 cursor-pointer'>

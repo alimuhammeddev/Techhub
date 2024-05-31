@@ -38,7 +38,7 @@ const Navbar = () => {
                   </li>
                 ))
               }
-              <div className=" flex items-center gap-5 lg:hidden">
+              <div className=" flex items-center gap-5 lg:hidden md:mr-10">
                 <a href="#" className="border border-[#EEA10D] text-[#6D737A] flex items-center gap-2 p-2 px-7 rounded-md"><img src={lock} alt="" /> Login</a>
                 <a href="#" className="bg-[#EEA10D] text-[#fffffff] flex items-center gap-2 p-2 px-7 rounded-md">Apply Now</a>
               </div>

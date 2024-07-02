@@ -71,7 +71,7 @@ function Team () {
         </div>
     </div>
   <div className="mx-auto max-w-[1340px] px-4 py-12 sm:px-6 lg:me-0 lg:py-16 lg:pe-0 lg:ps-1">
-    <div className="mt-8 lg:col-span-2 lg:mx-0 -mx-2 md:mx-60">
+    <div className="mt-8 lg:col-span-2 lg:mx-0 -mx-4 md:mx-60">
       <div id="keen-slider" className="keen-slider">
         <div className="keen-slider__slide">
             <div className='bg-[#ffffff] p-4 rounded-xl' style={{ width: '312px', height: '388px' }}>
